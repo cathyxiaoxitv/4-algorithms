@@ -1,6 +1,7 @@
 let sort = arr =>{
     let k = arr.length
     if (k !== 1) {
+        //注意slice用法
         let left = arr.slice(0, Math.floor(k / 2))
         console.log(`left:${left}`)
         let right = arr.slice(Math.floor(k / 2))
